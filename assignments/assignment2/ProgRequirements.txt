@@ -1,0 +1,11 @@
+You will use a class for the Items. The class should have data
+elements for the followinginformation: item name, unit
+(i.e. can, box, pounds, or ounces), number to buy, and unit price.
+Do you need any functions other than the constructor(s)? How do you
+calculate the extended price for the item (number to by times unit price?
+How do you print it to the screen?
+
+You will also need a List class. The List class will use a dynamic array
+to store Item objects. As each item is entered an Item object must created
+and added to the array. What do you do if the array is full? One List object
+will have many Item objects. Do you need a print function in this class?
