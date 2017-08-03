@@ -1,19 +1,28 @@
 #ifndef STACK_H
 #define STACK_H
 #include <iostream>
+#include <string>
+#include <cstdlib>
 
 using namespace std;
 
 class Stack {
   private:
-    int* numArray;
+    char* numArray;
     int arraySize;
-    int pushNum;
+    char pushChar;
+    int popNumOne;
+    int popNumTwo;
     int popNum;
+    int numCount;
 
   public:
     Stack();
-    void push(int);
+    int inputNumbers();
+    void inputOperand();
+    int setArraySize();
+    void convertToInt();
+    void push();
     void pop();
 };
 
