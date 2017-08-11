@@ -3,16 +3,20 @@
 #include "Floor.h"
 #include "Wombat.h"
 #include "Character.h"
+#include "Door.h"
+#include "Entry.h"
+#include "Key.h"
+#include "Ladder.h"
+#include "Teleport.h"
+#include "Wall.h"
+#include "Space.h"
+
 
 using namespace std;
 
 int main(){
-  Floor newFloor;
-
-  //newFloor.createFloor();
-  //newFloor.setArray();
-  newFloor.textToArray();
-
-
+  Game newGame;
+  newGame.startGame();
+  newGame.runGame();
   return 0;
 }
